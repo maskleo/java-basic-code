@@ -10,7 +10,7 @@ public class Test01 {
         try {
            Method method = ArrayList.class.getMethod("add",Object.class);
            method.invoke(list,"a");
-            System.out.println(list);
+           System.out.println(list);
         }catch (Exception e){
             e.printStackTrace();
         }
